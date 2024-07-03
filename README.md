@@ -77,3 +77,34 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- 
+
+
+Detox commands
+
+1st: build app detox build --configuration android.emu.debugv
+
+2nd: run by react native npx react-native run-android
+
+3rd: run test detox test --configuration android.emu.debug
+
+
+
+
+Check Build and Test APKs:
+Manually check if the build and test APKs are being generated correctly by running:
+
+to creat a new build 
+cd android
+./gradlew assembleDebug assembleAndroidTest
+
+
+
+https://abhiandroid.com/androidstudio/change-api-sdk-level-android-studio.html#gsc.tab=0
+
+
+to generate a report 
+./gradlew lint
+gradlew lint
+C:/Users/ShuaaAbdoh/detox/MyApp/android/app/build/reports/lint-results-debug.html
+

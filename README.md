@@ -82,11 +82,13 @@ To learn more about React Native, take a look at the following resources:
 
 Detox commands
 
-1st: build app detox build --configuration android.emu.debugv
+1st: build app => detox build --configuration android.emu.debug
 
-2nd: run by react native npx react-native run-android
+2nd: run by react native => npx react-native run-android
 
-3rd: run test detox test --configuration android.emu.debug
+3rd: ctrl+c
+
+4th: run test => detox test --configuration android.emu.debug
 
 
 
